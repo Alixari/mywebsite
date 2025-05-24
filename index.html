@@ -12,6 +12,14 @@
     <meta name="viewport" content="width=device-width">
     <meta name="generator" content="Framer 3266cfb">
     <title>Pixel Elegance</title>
+    <script>
+  const redirect = sessionStorage.redirect;
+  if (redirect) {
+    sessionStorage.removeItem('redirect');
+    window.history.replaceState(null, '', redirect);
+  }
+</script>
+
     <meta name="description" content="Pixel elegance is Bangladesh's leading Website design/development Agency with a core focus on modern stunning designs that takes your business to another level.">
     <meta name="framer-search-index" content="https://framerusercontent.com/sites/3mV9LbOpHN5M1FcSdCQLuD/searchIndex-31yBlQnnBHs6.json">
     <meta name="framer-html-plugin" content="disable">
