@@ -87,15 +87,17 @@ We've Got Answers!</h2></div></div><div class="framer-1keuklz"></div></div></div
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const form = document.querySelector("form"); // adjust if your form has a specific ID/class
-
+    const form = document.querySelector("form"); // grabs the form on your site
+    
     if(form) {
       form.addEventListener("submit", function() {
-        fbq('track', 'Lead'); // fires when form is submitted
+        // Fire Meta Pixel Lead event
+        fbq('track', 'Lead');
       });
     }
   });
 </script>
+
 
     
 </body>
